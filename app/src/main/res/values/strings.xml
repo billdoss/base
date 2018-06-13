@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ero3</string>
+    <string name="prompt_password">Password (optional)</string>
+</resources>

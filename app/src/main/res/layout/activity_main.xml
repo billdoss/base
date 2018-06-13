@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image_de_fond"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="128dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_degrade"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="116dp"
+
+                android:layout_height="135dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_logo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.338" />
+            <Button
+                android:id="@+id/transit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#1100"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Devenir le Ero de votre environnement"
+                    android:fontFamily="sans-serif"
+                    android:textSize="16sp"
+                    android:layout_marginTop="40dp"/>
+        </android.support.constraint.ConstraintLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
