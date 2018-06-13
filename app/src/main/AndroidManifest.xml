@@ -19,13 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".inscription1" />
-        <activity android:name=".inscription2" />
-        <activity android:name=".connexion" />
-        <activity android:name=".transition" />
+        <activity android:name=".Inscription1Activity" />
+        <activity android:name=".Inscription2" />
+        <activity android:name=".ConnexionActivity" />
+        <activity android:name=".Transition" />
         <activity android:name=".benevole" />
         <activity android:name=".profile" />
-        <activity android:name=".parametres"></activity>
+        <activity android:name=".Parametres"></activity>
     </application>
 
 </manifest>
